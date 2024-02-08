@@ -1,0 +1,265 @@
+<!-- 
+  Hello 😊.
+
+  This template is designed and developed by Nisar Hassan Naqvi
+  for anyone to use for free or customize the way they like.
+
+  Github Repo: https://github.com/nisarhassan12/portfolio-template/
+  My Website: https://nisar.dev
+
+  For business & inquires, contact me => syednisarhassan12@gmail.com
+-->
+
+<!--
+  Follow the instructions written in comments to create your stunning portfolio
+-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
+
+  <!-- Put your site title here -->
+  <title>
+    Vitor Portella - Desenvolvedor Full-Stack
+  </title>
+
+  <meta name="description" content="Desenvolvedor Full-Stack especializado no ambiente .NET">
+  <!-- Add some coding keywords below, Ex: (React, CSS etc) -->
+  <meta name="keywords" content="Vitor Portella, .NET, C#, SQL, WPF, .NET MAUI, Unity, Bash, Java, Git, Github, HTML, CSS, JS, Python, Lua, Docker"/>
+  <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+
+  <!-- ***** Header ***** -->
+
+  <header class="header" role="banner" id="top">
+    <div class="row">
+      <nav class="nav" role="navigation">
+        <ul class="nav__items">
+          <li class="nav__item"><a href="index_en.html" class="nav__link">English<img src="images/bandeira-eua.png" class="img-icon"/></a></li>
+          <li class="nav__item"><a href="#work" class="nav__link">Trabalhos</a></li>
+          <li class="nav__item"><a href="#about" class="nav__link">Sobre</a></li>
+          <li class="nav__item"><a href="#contact" class="nav__link">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="header__text-box row">
+      <div class="header__text">
+        <h1 class="heading-primary">
+          <!-- Replace the following name with your name -->
+          <span>Vitor de Souza Portella</span>
+        </h1>
+        <!-- Put a small paragraph about yourself -->
+        <p>Desenvolvedor Full-Stack especializado no ambiente .NET</p>
+        <a href="#contact" class="btn btn--blue">Entre em contato</a>
+      </div>
+    </div>
+  </header>
+
+  <main role="main">
+
+    <!-- ***** Work ***** -->
+
+    <section class="work" id="work">
+      <div class="row">
+        <h2>Meus Trabalhos</h2>
+        <div class="work__boxes">
+
+          <!-- Each div with the work__box class is a project. -->
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Monitorador de Sistema Operacional</h3>
+              <p>
+                Ferramenta de supervisão de Sistema Operacional. Inclui software dedicado e um site central de dados de produtividade, tudo conectado a uma API dedicada. Também inclui Autenticação dedicada com login.
+              </p>
+              <ul class="work__list">
+                <li>C#</li>
+                <li>ASP.NET API Mínima</li>
+                <li>MySQL</li>
+                <li>HTML, CSS, JS</li>
+                <li>Autenticação</li>
+              </ul>
+
+              <div class="work__links">
+                <a class="link__text">
+                  Código fonte <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/Vitoronga" title="View Source Code" target="_blank">
+                  <img src="./images/github.svg" class="work__code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/SistemaMonitoramento.png" class="work__image" alt="Project 1" />
+            </div>
+          </div>
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>RPG GPT</h3>
+              <p>
+                Jogo de RPG controlado com ChatGPT. Inclui armazenamento local para personagem e histórias.
+              </p>
+              <ul class="work__list">
+                <li>C#</li>
+                <li>.NET MAUI (MVVM)</li>
+                <li>SQLite</li>
+                <li>API da OpenAI</li>
+                <li>Injeção de Dependência</li>
+              </ul>
+
+              <div class="work__links">
+                <a class="link__text">
+                  Código fonte <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/Vitoronga" title="View Source Code" target="_blank">
+                  <img src="./images/github.svg" class="work__code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/rpg-gpt.png" class="work__image" alt="Project 2" />
+            </div>
+          </div>
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Animal Chess</h3>
+              <p>
+                Um jogo de tabuleiro com animais, semelhante ao xadrez. Suporta jogo no mesmo aparelho e multijogador local em LAN.
+              </p>
+              <ul class="work__list">
+                <li>C#</li>
+                <li>WPF (MVVM)</li>
+                <li>Comunicação em rede (Socket)</li>
+              </ul>
+
+              <div class="work__links">
+                <a class="link__text">
+                  Código fonte <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/Vitoronga" title="View Source Code" target="_blank">
+                  <img src="./images/github.svg" class="work__code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/AnimalChess.png" class="work__image" alt="Project 3" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ***** Clients ***** -->
+
+    <!-- <section class="client" id="clients">
+      <div class="row">
+        <h2>Clients</h2>
+        <div class="client__logos">
+          <img src="./images/ronjones.png" class="client__logo" alt="Company 2" />
+          <img src="./images/goldengrid.png" class="client__logo" alt="Company 3" />
+          <img src="./images/bullseye.png" class="client__logo" alt="Company 1" />
+          <img src="./images/mighty-furnitures.png" class="client__logo" alt="Company 1" />
+          <img src="./images/fastlane.png" class="client__logo" alt="Company 3" />
+          <img src="./images/chippy.png" class="client__logo" alt="Company 1" />
+        </div>
+      </div>
+    </section> -->
+
+    <!-- ***** About ***** -->
+
+    <section class="about" id="about">
+      <div class="row">
+        <h2>Sobre mim</h2>
+        <div class="about__content">
+          <div class="about__text">
+            <!-- Replace the below paragraph with info about yourself -->
+            <p>
+              Entusiasta da programação desde 2016, com forte espírito desafiador. Desenvolvedor com conhecimentos em back-end e front-end, especializado no desenvolvimento no ambiente .NET - porém mas importante: uma mentalidade inata para resolução de problemas.
+            </p>
+            <p>
+              Skills: .NET, C#, SQL, WPF, .NET MAUI, Unity, Bash, Java, Git/Github, HTML, CSS, JS, Python, Lua, Docker, more...
+            </p>
+            <!-- Provide a link to your resume -->
+            <a href="#" class="btn">Meu currículo</a>
+          </div>
+
+          <div class="about__photo-container">
+            <!-- Add a nice photo of yourself -->
+            <img class="about__photo" src="./images/pfp.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ***** Contact ***** -->
+
+  <section class="contact" id="contact">
+    <div class="row">
+      <h2>Entre em contato</h2>
+      <div class="contact__info">
+        <p>
+          Caso esteja interessado em me contatar por motivos comerciais, a melhor forma de fazê-lo é via email. Para outras razões, você pode me contatar nas minhas redes, estou sempre aberto para novas conversas 😃.
+        </p>
+        <!-- Replace the email with yours -->
+        <a href="mailto:vitorportella.dev@gmail.com" class="btn">vitorportella.dev@gmail.com</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ***** Footer ***** -->
+
+  <footer role="contentinfo" class="footer">
+    <div class="row">
+      <!-- Update the links to point to your accounts -->
+      <ul class="footer__social-links">
+        <!-- <li class="footer__social-link-item">
+          <a href="https://twitter.com/nisarhassan12/" title="Link to Twitter Profile">
+            <img src="./images/twitter.svg" class="footer__social-image" alt="Twitter">
+          </a>
+        </li> -->
+        <li class="footer__social-link-item">
+          <a href="https://github.com/Vitoronga" title="Link to Github Profile">
+            <img src="./images/github.svg" class="footer__social-image" alt="Github">
+          </a>
+        </li>
+        <!-- <li class="footer__social-link-item">
+          <a href="https://codepen.io/nisar_hassan" title="Link to Codepen Profile">
+            <img src="./images/codepen.svg" class="footer__social-image" alt="Codepen">
+          </a>
+        </li> -->
+        <li class="footer__social-link-item">
+          <a href=https://www.linkedin.com/in/vitor-portella-8749b2260/">
+            <img src="./images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image" alt="Linkedin">
+          </a>
+        </li>
+      </ul>
+
+      <!-- If you give me some credit by keeping the below paragraph, will be huge for me 😊 Thanks. -->
+      <p>
+        &copy; 2020 - Template designed & developed by <a href="https://nisar.dev" class="link">Nisar</a>.
+      </p>
+      <div class="footer__github-buttons">
+        <iframe
+          src="https://ghbtns.com/github-btn.html?user=nisarhassan12&repo=portfolio-template&type=watch&count=true"
+          frameborder="0" scrolling="0" width="170" height="20" title="Watch Portfolio Template on GitHub">
+        </iframe>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#top" class="back-to-top" title="Back to Top">
+    <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image"/>
+  </a>
+  <script src="./index.js"></script>
+</body>
+
+</html>
